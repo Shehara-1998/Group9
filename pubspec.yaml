@@ -1,0 +1,25 @@
+name: flutter_event_app
+description: An event app in Flutter
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: "^0.1.0"
+  qr_flutter: "^1.0.0"
+  cloud_firestore: "^0.3.2"
+  barcode_scan: "^0.0.3"
+  http: "^0.11.3+16"
+  google_sign_in: ">=0.0.2 <3.0.0"
+  intl: "^0.15.6"
+  flutter_fab_dialer: "^0.0.5"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
